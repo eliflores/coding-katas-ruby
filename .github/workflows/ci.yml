@@ -25,11 +25,11 @@ jobs:
         restore-keys: ${{ runner.os }}-gems-
     - name: Build
       run: |
-        - gem install bundler
-        - bundle install
+        gem install bundler
+        bundle install
     - name: Static analysis
       run: |
-        - bundle exec rubocop
+        bundle exec rubocop
     - name: Run tests
       run: |
-        - bundle exec rspec --format documentation
+        bundle exec rspec --format documentation
