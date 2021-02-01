@@ -23,10 +23,13 @@ jobs:
         path: vendor/bundle
         key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
         restore-keys: ${{ runner.os }}-gems-
+    - name: Build
+      run: |
+        - gem install bundler
+        - bundle install
     - name: Static analysis
       run: |
-        rubocop   
+        - bundle exec rubocop
     - name: Run tests
       run: |
-        gem install bundler
-        bundle exec rspec --format documentation
+        - bundle exec rspec --format documentation
