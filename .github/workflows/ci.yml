@@ -28,8 +28,6 @@ jobs:
         gem install bundler
         bundle install
     - name: Static analysis
-      run: |
-        bundle exec rubocop
+      run: bundle exec rubocop
     - name: Run tests
-      run: |
-        bundle exec rspec --format documentation
+      run: bundle exec rspec --format documentation
