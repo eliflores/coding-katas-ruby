@@ -1,5 +1,17 @@
+require:
+  - rubocop-rspec
+
 AllCops:
   NewCops: enable
 
 Metrics/BlockLength:
   IgnoredMethods: ['describe']
+
+RSpec/MultipleExpectations:
+  Max: 3
+
+RSpec/ExampleLength:
+  Max: 10
+
+RSpec/DescribeClass:
+  Enabled: false
