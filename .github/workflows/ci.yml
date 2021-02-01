@@ -29,4 +29,4 @@ jobs:
     - name: Run tests
       run: |
         gem install bundler
-        bundle exec rspec
+        bundle exec rspec --format documentation
