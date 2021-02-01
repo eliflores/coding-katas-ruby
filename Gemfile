@@ -4,3 +4,4 @@ source 'https://rubygems.org'
 
 gem 'rspec', require: 'spec'
 gem 'rubocop', '~> 1.9', require: false
+gem 'rubocop-rspec', require: false

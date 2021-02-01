@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 # Ref: https://www.codewars.com/kata/5571f712ddf00b54420000ee/train/ruby
+
 def loose_change(cents)
   if cents <= 0
     { 'Pennies' => 0, 'Nickels' => 0, 'Dimes' => 0, 'Quarters' => 0 }
