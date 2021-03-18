@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../loose_change_kata'
+require_relative '../katas/loose_change_kata'
 
 describe 'Loose Change Kata' do
   context 'when the amount is equal to 0 cents' do
