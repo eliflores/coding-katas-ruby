@@ -9,7 +9,8 @@ Ruby solutions for Katas from
 ## How to work with this repository
 
 1. Clone the repository
-2. Install the version of ruby in the [CI workflow](.github/workflows/ci.yml)
+2. Install the version of [ruby](https://www.ruby-lang.org) in the [CI workflow](.github/workflows/ci.yml)
+   * _Hint_: You may use [rbenv](https://github.com/rbenv/rbenv) to manage ruby versions. 
 3. Install dependencies: `gem install bundler && bundle install`
 4. Run static analysis: `bundle exec rubocop`
 5. Run tests: `bundle exec rspec --format documentation`
