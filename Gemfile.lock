@@ -6,7 +6,7 @@ GEM
     ast (2.4.3)
     bigdecimal (3.3.1)
     diff-lcs (1.6.2)
-    json (2.18.1)
+    json (2.19.2)
     json-schema (5.2.2)
       addressable (~> 2.8)
       bigdecimal (~> 3.1)
